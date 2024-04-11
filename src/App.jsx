@@ -10,7 +10,8 @@ const App = () => {
       title: "Inception",
       description: "A thief who enters the dreams of others to steal secrets",
       posterURL: "./poster/inceptionposter.jpg",
-      rating: 8.8
+      trailerURL: "https://www.youtube.com/watch?v=Jvurpf91omw",
+      rating: 8.8,
     },
     // Add more initial movies as needed
 
@@ -18,7 +19,8 @@ const App = () => {
         title: "Coming to America",
         description: "Coming to America is a classic comedy film that follows the story of an African prince who travels to New York City undercover to find a wife who will love him for his character, not his wealth and royal status.",
         posterURL: "./poster/america.jpg",
-        rating: 8.5
+        trailerURL: "https://www.youtube.com/watch?v=ZDme5Y5E-bI",
+        rating: 8.5,
     },
 
    
@@ -26,7 +28,8 @@ const App = () => {
         title: "Black Panther",
         description: "Black Panther follows T'Challa, the newly crowned king of the technologically advanced African nation of Wakanda, as he grapples with the responsibilities of leadership and confronts a formidable adversary threatening to challenge his kingdom's future.",
         posterURL: "./poster/BlackPanther.jpeg",
-        rating: 9.5
+        trailerURL: "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+        rating: 9.5,
     },
 
   ]);
@@ -54,7 +57,7 @@ const App = () => {
       <Filter onFilter={handleFilter} />
       <MovieList movies={filteredMovies} />
       {/* Add a form or button to add new movies */}
-    </div>
+          </div>
   );
 };
 
